@@ -1,0 +1,19 @@
+{
+  "esy": {
+    "release": {
+      "bin": ["ocamlopt", "ocamlmerlin"],
+      "includePackages": ["root", "@opam/merlin"]
+    }
+  },
+  "dependencies": {
+    "ocaml": "*",
+    "@opam/dune": "*",
+    "@opam/merlin": "*"
+  },
+  "resolutions": {
+    "ocaml": "DiningPhilosophersCo/ocaml-windows-installer:esy.json#35f8549145e7f2c074e1824f989cdcbe6bdc23cc",
+    "@opam/dot-merlin-reader": "DiningPhilosophersCo/merlin:dot-merlin-reader.opam#ee4d237e90d86e474cea6150157d91d1b053a28a",
+    "@opam/merlin": "DiningPhilosophersCo/merlin:merlin.opam#ee4d237e90d86e474cea6150157d91d1b053a28a",
+    "@opam/merlin-lib": "DiningPhilosophersCo/merlin:merlin-lib.opam#ee4d237e90d86e474cea6150157d91d1b053a28a"
+  }
+}
