@@ -25,7 +25,7 @@ jobs:
           fetch-depth: 1000
           fetch-tags: true
       - name: "Install esy"
-        run: npm install -g esy
+        run: npm install -g @diningphilosophers/esy
       - uses: esy/github-action@master
         with:
           source-cache-key: 20240515-1
