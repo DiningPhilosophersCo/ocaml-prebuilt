@@ -24,6 +24,7 @@ jobs:
         with:
           fetch-depth: 1000
           fetch-tags: true
+      - name: "Install esy"
         run: npm install -g esy
       - uses: esy/github-action@master
         with:
