@@ -20,7 +20,7 @@ jobs:
       - uses: esy/github-action@prometheansacrifice/tools-cache
         with:
           setup-esy-npm-package: '@diningphilosophers/esy'
-          source-cache-key: 20240611-1
+          source-cache-key: 20240612-1
           cache-key: ${{ hashFiles('esy.lock/index.json') }}-20240515-1
       - uses: esy/github-action@master
         id: prepare-npm-artifacts
