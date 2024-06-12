@@ -17,13 +17,7 @@ jobs:
     steps:
       - uses: actions/setup-node@v4
       - uses: actions/checkout@v4
-      - name: Install esy
-        run: npm install -g @diningphilosophers/esy
-      - name: run esy
-        run: |
-          $env:HOME = 'D:\'
-          esy -vvv
-      - uses: esy/github-action@master
+      - uses: esy/github-action@prometheansacrifice/tools-cache
         with:
           source-cache-key: 20240611-1
           cache-key: ${{ hashFiles('esy.lock/index.json') }}-20240515-1
