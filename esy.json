@@ -1,4 +1,5 @@
 {
+  "name": "@diningphilosophers/ocaml-prebuilts",
   "esy": {
     "release": {
       "bin": ["ocamlopt", "ocamlmerlin"],
