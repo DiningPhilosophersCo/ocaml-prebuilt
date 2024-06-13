@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/setup-node@v4
       - uses: actions/checkout@v4
-      - uses: esy/github-action@prometheansacrifice/tools-cache
+      - uses: diningphilosophersco/esy-github-action@prometheansacrifice/msvc-hack
         with:
           setup-esy-npm-package: '@diningphilosophers/esy'
           source-cache-key: 20240612-1
